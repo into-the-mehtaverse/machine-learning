@@ -1,2 +1,64 @@
+# System Files
 .DS_Store
 .env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_checkpoints/
+# Kaggle Competition Data Files
+# Ignore large datasets but keep sample submissions for reference
+**/data/train.csv
+**/data/test.csv
+**/data/*.zip
+**/data/*.tar.gz
+**/data/*.parquet
+**/data/*.feather
+# Uncomment below if you want to ignore ALL CSVs in data folders
+# **/data/*.csv
+
+# Model Files & Outputs
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.pt
+*.onnx
+*.pb
+models/
+checkpoints/
+saved_models/
+
+# Submission Files (optional - uncomment if you don't want to track submissions)
+# submission*.csv
+# **/submissions/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and Databases
+*.log
+*.sqlite
+*.db
+
+# OS
+Thumbs.db
